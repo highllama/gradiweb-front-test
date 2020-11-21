@@ -3,7 +3,9 @@
 ### Ambiente de Desarrollo
 
 version de Node:  [Node.js](https://nodejs.org/)  v12.13.1 
+
 version de React:  [React.js](https://reactjs.org/)  v16.12.0 
+
 Resoluciones optimizadas: 1280px (laptop), 378px (mobile)
 > Posteriormente de haber clonado el repositorio, proceder a instalar las dependencias necesarias 
 

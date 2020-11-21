@@ -2,7 +2,7 @@
 
 ### Ambiente de Desarrollo
 
-version de Node:  [Node.js](https://nodejs.org/)  v12.13.1 
+version de Node:  [Node.js](https://nodejs.org/)  v12.16.1 
 
 version de React:  [React.js](https://reactjs.org/)  v16.12.0 
 
@@ -22,6 +22,8 @@ $ npm start
 
  > luego de haber realizado los anteriores pasos, la aplicacion estara lista para su uso 
 
+
+![Desktop laptop (1280px )](./src/assets/desktop-laptop.png)
 -----------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

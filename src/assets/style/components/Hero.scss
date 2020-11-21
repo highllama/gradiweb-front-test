@@ -1,0 +1,35 @@
+@import '../Vars.scss';
+
+.Hero {
+  z-index: -10;
+  margin-top: 30em;
+  border-radius: 35px;
+  height: 40vh;
+  margin-top: 2em !important; 
+  background: url('https://images.unsplash.com/photo-1505578066158-8015e4136f59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  i{
+    color: $darkBlue;
+    margin-left: 4em; 
+    font-size: 1.25em;
+  }
+  h2{
+    color: $darkBlue;
+    margin-left: .25em; 
+  }
+}
+
+@media screen and (max-width:378px){
+  .Hero{
+    width: 100vw;
+    justify-content: center;
+    i{
+    margin-left: 0em; 
+    }
+    h2 {
+    margin-left: .25em; 
+   }
+  }
+}

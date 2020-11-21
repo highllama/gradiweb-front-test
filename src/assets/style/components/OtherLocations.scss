@@ -1,0 +1,33 @@
+@import '../Vars.scss';
+
+.OtherLocations {
+  margin-left: 4em;
+  width:100%;
+  position: relative;
+  margin-top: calc(-12em);
+
+  &__addLocations{
+    button{
+      display: inherit;
+      margin: 0 auto;
+      color: $darkBlue;
+      border: 1px solid transparent;
+      border-radius: 25px;
+      margin-top: 2em; 
+    }
+  img{
+    margin:0 auto;
+  }
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .OtherLocations{
+    margin-top:0;
+  }
+}
+@media screen and (max-width:378px) {
+  .OtherLocations{
+    margin-left: 0;
+  }
+}

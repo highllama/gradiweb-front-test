@@ -1,0 +1,50 @@
+@import '../Vars.scss';
+
+.CurrentWeather{
+  position: absolute;
+  top: 18vh;
+  z-index:10 ;
+    &__icon{
+      background: $darkBlue;
+      height: 6em; 
+      border-radius: 0 15px 15px 15px; 
+      box-shadow: 0 0 15px -1px rgba(50,50,130,.8);
+      
+    }
+
+    &__info{
+      background: $ligthBlue;
+      height: 6em;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      border-radius: 0 0 15px 15px; 
+      position: relative;
+      top: -10px;
+      box-shadow: 0 0 15px -1px rgba(50,50,130,.8);
+      z-index: -1;
+
+      h2{
+        color:#FFF;
+        font-size: 2.25em
+      }
+
+      span{
+        font-size: .45em;
+        position: relative;
+        top: -1.25em;
+      }
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+}
+
+@media screen and (max-width:378px) {
+  .CurrentWeather{
+    position: fixed;
+
+  }
+}

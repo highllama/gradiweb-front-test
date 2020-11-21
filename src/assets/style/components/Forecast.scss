@@ -1,0 +1,18 @@
+.Forecast{
+  &__main{
+  display: flex;
+  margin-top: 2em;
+  
+  justify-content: space-around
+
+  }
+}
+
+@media screen and (max-width:1100px){
+  .Forecast{
+    &__main{
+      text-align: center;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,3 +1,27 @@
+# Prueba Tecnica Front End  - Gradiweb
+
+### Ambiente de Desarrollo
+
+version de Node:  [Node.js](https://nodejs.org/)  v12.13.1 
+version de React:  [React.js](https://reactjs.org/)  v16.12.0 
+Resoluciones optimizadas: 1280px (laptop), 378px (mobile)
+> Posteriormente de haber clonado el repositorio, proceder a instalar las dependencias necesarias 
+
+```sh
+$ cd gradiweb-front-test
+$ npm install || yarn install
+```
+
+> Ejecutar el servidor, el cual abrira automaticamente el navegador
+
+```sh
+$ npm start
+```
+
+ > luego de haber realizado los anteriores pasos, la aplicacion estara lista para su uso 
+
+-----------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Running on Repl.it
